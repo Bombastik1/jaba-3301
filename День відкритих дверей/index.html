@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Факультет Електроніки - JABA 3301</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Ласкаво просимо на ELІТ!</h1>
+    <h2>Квест JABA 3301: Шукаємо вундеркіндів</h2>
+
+    <div id="level1" class="level visible">
+        <h2>Рівень 1 — Декодування</h2>
+        <p>HEX-код:</p>
+        <pre>57 65 20 61 6C 73 6F 20 6B 6E 6F 77 20 68 6F 77 20 74 6F 20 75 73 65 20 41 49 2E
+42 75 74 20 41 49 20 64 6F 65 73 20 6E 6F 74 20 73 65 65 20 65 76 65 72 79 74 68 69 6E 67 2E
+4D 61 79 62 65 20 79 6F 75 20 73 68 6F 75 6C 64 20 6C 6F 6F 6B 20 61 74 20 77 68 61 74 20 64 6F 65 73 20 6E 6F 74 20 6D 61 6B 65 20 73 65 6E 73 65 2E
+43 61 65 73 61 72 20 33 20 6D 61 79 20 68 65 6C 70 2E</pre>
+        <p>Це слово не має сенсу: <strong>COLD</strong></p>
+        <div class="controls">
+            <input id="level1Input" placeholder="Enter key">
+            <button id="level1Btn">Ввести</button>
+        </div>
+    </div>
+
+    <div id="level2" class="level">
+        <h2>Рівень 2 — Фізика</h2>
+        <p>U = 2 В, I = 2 А, t = 1 с.</p>
+        <p>Обчисліть роботу <strong>A = U · I · t</strong>:</p>
+        <div class="controls">
+            <input id="level2Input" placeholder="A = ?">
+            <button id="level2Btn">Ввести</button>
+        </div>
+        <button id="skipLevel2" class="skip-btn">Пропустити завдання</button>
+    </div>
+
+    <div id="level3" class="level">
+        <h2>Рівень 3 — Python-цикл</h2>
+        <pre>num = 4
+for i in range(num):
+    print(i + 1 * 2, end='')</pre>
+        <div class="controls">
+            <input id="level3Input" placeholder="Результат">
+            <button id="level3Btn">Ввести</button>
+        </div>
+    </div>
+
+    <div id="level4" class="level">
+        <h2>Фінал — Секретний номер</h2>
+        <p>Скористайся світлокором 😉</p>
+        <div id="secretNumber">М90М</div>
+        <p id="hint">Продиктуйте код членам ОСС та візьміть участь в лотереї.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
